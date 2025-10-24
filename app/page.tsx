@@ -9,7 +9,7 @@ import { HeroSlider } from "@/components/hero-slider"
 import { PricingCard } from "@/components/pricing-card"
 import { Car, Clock, MapPin, Shield, ThumbsUp, Users, CheckCircle, Calendar, Smartphone } from "lucide-react"
 
-// Imagens para o slider
+// Imagens para o slider (Já estava correto!)
 const sliderImages = [
   { url: "/estacionamento1.jpg", alt: "Estacionamento" },
   { url: "/estacionamento2.jpg", alt: "Outro ângulo" },
@@ -69,21 +69,21 @@ const depoimentos = [
     cargo: "Diretor de Infraestrutura",
     texto:
       "O EstacioneJá revolucionou a forma como gerenciamos nossos estacionamentos. Reduzimos filas, melhoramos a experiência dos alunos e otimizamos o uso das vagas.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/placeholder.svg", // <-- ALTERAÇÃO FEITA AQUI
   },
   {
     nome: "Instituto Federal de São Paulo",
     cargo: "Coordenador Administrativo",
     texto:
       "Desde que implementamos o EstacioneJá, os problemas com estacionamento diminuíram drasticamente. A plataforma é intuitiva e o suporte é excelente.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/placeholder.svg", // <-- ALTERAÇÃO FEITA AQUI
   },
   {
     nome: "Universidade Estadual de Campinas",
     cargo: "Pró-Reitor de Administração",
     texto:
       "O sistema nos permitiu ter controle total sobre os estacionamentos do campus. Os relatórios são fundamentais para nosso planejamento estratégico.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    avatar: "/placeholder.svg", // <-- ALTERAÇÃO FEITA AQUI
   },
 ]
 

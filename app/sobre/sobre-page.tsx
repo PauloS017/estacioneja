@@ -22,7 +22,7 @@ export default function SobrePage() {
             </div>
             <div className="mx-auto lg:mx-0 relative">
               <Image
-                src="/imgSobreNos.jpeg?height=350&width=500"
+                src="/imgSobreNos.jpeg" // <-- ALTERAÇÃO FEITA AQUI
                 alt="Equipe EstacioneJá"
                 width={500}
                 height={350}
